@@ -5,7 +5,7 @@ public class LargestElementInAnArray {
             int largest =ar[0];
             int n = ar.length;
 
-            for (int i= 0;i<n;i++){
+            for(int i= 0;i<n;i++){
                 if(ar[i]>largest){
                     largest=ar[i];
                 }
